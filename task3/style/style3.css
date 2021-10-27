@@ -1,0 +1,51 @@
+.text1 {
+    background-image: url(../style/image/777.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    color: rgb(163, 233, 166);
+    padding: 15px;
+    font-size: 20px;
+    
+    
+}
+
+.text2 {
+    background-image: url(../style/image/777.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 400px;
+    height: 400px;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.text3 {
+    background-image: url(../style/image/777.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 400px;
+    height: 400px;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    
+   
+}
+
+.text4 {
+    background-image: url(../style/image/777.jpg);
+    background-repeat: repeat-x repeat-y;
+    color: black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+}

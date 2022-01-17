@@ -1,0 +1,40 @@
+body
+{
+    background-image: url("../image/12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text1
+{
+    background-image: url("../image/777.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+}
+.text2
+{
+    background-image: url("../image/w.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+}
+.text3
+{
+    background-image: url("../image/12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+}

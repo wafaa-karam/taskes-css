@@ -1,0 +1,412 @@
+/* body style*/
+
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+/*start style header*/
+
+.header{
+    background-color: rgb(157 141 32);
+    color: #0f0f0f;     /*لون الفون والظرف*/
+    position: relative;
+    height: 40px;                /*ارتفاع الهيدر*/
+    padding: 5px;
+}
+
+.fab, .far {
+    font-weight: 400;
+    color: black;
+}
+.header i{
+    margin-left: 40px;    /*المسافة بين الفون والظرف */
+    margin-top: 10px;
+}
+.header .social {
+
+position: absolute;
+right: 0;                      /*لبدأ الايقونات  من اليسار*/
+margin-right: 70px; 
+padding-right: 20px;
+margin-top: -30px;
+}
+.header .social ul li{
+    display: inline-block;          /*جعل الايقونات مستقيمة في الهيدر*/
+    padding: 10px;
+    font-weight:bold;      /*حجم الفون والايميل داخل الهيدر*/
+}
+
+.header .social a:hover{
+    color: #e211b5;                                     /*عند التأشير يتغير لون الايقونه*/
+}
+/*end style header*/
+/* start style navbar */
+
+.navbar{
+   
+    height: 40px;                                          /*ارتفاع الناف بار*/
+    background-color: rgb(245 241 241);             /*لون خلفية الناف بار*/
+    color: rgb(19, 17, 18);                              /*لون خط العنوان digimedia*/
+}
+.style1{
+    font-size: 26px;
+    display: inline;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.style1 .st1{
+    color:rgb(231, 53, 231);
+    font-size: 26px;
+}
+.style1 .st2{
+    color: rgb(157 141 32);
+    font-size: 26px;
+}
+
+ .style2{
+   margin-right: 165px;
+   display: flex;                                          /*تكون الروابط بالناف بار مستقيمة*/
+   float: right;                                           /*تكون الروابط بالناف بار على يمين الموقع*/
+   align-items: center;
+   
+}
+.style2 il{
+    list-style-type: none;
+    margin-left: 20px;             /*المسافة بين روابط الناف بار*/
+    font-size: 10;                 /*حجم خط الروابط بالناف بار*/
+    margin-top: -38px;            /*هامش خارجي للروابط للناف بار*/
+}
+
+.style2 il a{
+    font-family: Arial, Helvetica, sans-serif;  /*نوع الخط للروابط بالناف بار*/
+    text-decoration: none;                      /*لتحديد شكل النص بدون خط تحته*/
+    font-weight: bold;                          /*سماكة الخط*/
+    color: rgb(43, 35, 35);                   /*لون خط الروابط*/
+}
+
+.style2 il a:hover{
+    color: #e211b5;                       /*عند التأشير على الرابط يتغير اللون*/
+}
+
+.login{
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.login .btn1{
+    font-weight: bold;          /*سمك خط كلمة login*/
+    color: rgb(17, 15, 15);             /*لون خط كلمة login*/
+    width: 100px;             /*عرض البوتن*/
+    height: 30px;             /*ارتفاع البوتن*/
+    background-color: white;   /*لون خلفية البوتن*/
+    border: 2px solid rgb(157 141 32);;           /*لون اطار البوتن*/
+    border-radius: 14px;                 /*انحناء اطراف البوتن*/
+    margin-left: 1190px;                 /*انتقال البوتن ليسار */
+    font-size: 20px;
+    margin-bottom: -15px;
+    
+}
+ 
+/* end style navbar */
+
+.paragraph h1{
+    color: rgb(157 141 32);
+    font-weight:bold;
+    padding-left: 220px; 
+    font-size: 50px;
+    position:absolute;             /*تحريك العنصر من مكان العمل*/
+    top: 210px;
+    font-size: 40px;
+}
+
+.paragraph p{
+    color:black;        /*لون خط النص */
+    position:absolute;
+    top: 220px;
+    font-weight:bolder;
+    width:540px;
+    font-size: 12;
+    font-family: Arial;
+    padding: 70px;
+  }
+
+  .style3 .btn2{
+
+    color:black ;
+    font-size: 16px;
+    font-weight:bold;
+    width: 90px;
+    height: 30px;
+    border-radius:14px;
+    background:rgb(255, 255, 255);
+    border: 2px solid rgb(157 141 32);
+    margin-top: 290px;
+    margin-left: 70px;
+    
+  }
+
+  .img{
+    width: 620px;
+    height: 250px;
+    margin-top: -105px;
+    margin-right: 50px;
+    float: right;
+    border-radius: 20px;
+   
+  }
+
+  .img2{
+    width: 550px;
+    height: 250px;
+    margin-top: 85px;
+    margin-right: 40px;
+    float: right;
+    border-radius: 20px;
+  }
+
+  .h2{
+    position:absolute;
+    font-size: 23px;
+    top:600px;
+    padding-left:800px;
+    font-weight:bold;
+    color: rgb(157 141 32);
+  }
+
+  .paragraph2 .p2{
+    color:black;        /*لون خط النص */
+    position:absolute;
+    top: 250px;
+    font-weight:bolder;
+    width:540px;
+    font-size: 12;
+    font-family: Arial;
+    padding: 400px;
+    padding-right: 170px;
+    right: 0px;
+  }
+
+  .style4 h1{
+    top:910px;
+    position:absolute;
+    color:black;
+    font-weight:bold;
+    font-family:monospace;
+    padding-right:300px;
+    width:500px;
+    height:140px;
+    right:0px;
+    font-weight:bold;
+    font-size:30px;
+    
+    }
+
+    .style4 h2{
+        top:965px;
+        color: black;
+        position:absolute;
+        width:750px;
+        height:140px;
+        padding-right:26 0px;
+        right:0px;
+        font-weight:bold;
+        font-size:17px;    
+        }
+
+
+        .g1 {
+           width: 70px;
+           height: 70px;
+           border-radius: 50%;
+           align-items: center;
+        }
+
+        .style5 {
+            background-color: rgb(34, 33, 25);
+            padding: 50px;
+            margin: 40px;
+            width: 62px;
+            height: 60px;
+            display: inline-block;
+            margin-left: 210px;
+            margin-top: 250px;
+        }
+        
+        .style5 p {
+            font-weight: bold;
+            font-size: 18px;
+            color:rgb(157 141 32);
+        }
+
+
+        .style6 {
+            background-color: rgb(157 141 32);
+            padding: 50px;
+            margin: 40px;
+            width: 62px;
+            height: 60px;
+            display: inline-block;
+        }
+        
+        .style6 p {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+
+        .style7 {
+            background-color: rgb(34, 33, 25);
+            padding: 50px;
+            margin: 40px;
+            width: 62px;
+            height: 60px;
+            display: inline-block;
+        }
+        
+        .style7 p {
+            font-weight: bold;
+            font-size: 18px;
+            color:rgb(157 141 32);
+        }
+
+
+        .style8 {
+            background-color: rgb(157 141 32);
+            padding: 50px;
+            margin:40px;
+            width: 62px;
+            height: 60px;
+            display: inline-block;
+        }
+        
+        .style8 p {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+       
+        .style9{
+
+            position: absolute;
+            top: 1260px;
+            width: 800px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+
+        .p1 , .p3{
+            background-color: rgb(157 141 32);
+            border-radius: 0 50px 50px 0;
+            width: 700px;
+            height: 65px;
+            margin: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+
+        .p1 img {
+            position: absolute;
+            border-radius: 50%;
+            width: 60px;
+            top: 57px;
+            height: 60px;
+            right: 50px;
+        }
+
+        .p3 img {
+            position: absolute;
+            border-radius: 50%;
+            width: 60px;
+            top: 298px;
+            height: 60px;
+            right: 50px;
+        }
+
+
+        .p1 span , .p3 span{
+            position: absolute;
+            width: 70px;
+            height: 55px;
+            left: 50px;
+            background-color: rgb(43, 37, 37);
+            font-size: 60px;
+            font-weight: 900px;
+            color: #FEFEDF;
+            border-radius: 0px 30px 30px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .p1::before ,.p3::before{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: -65px;
+            border: 60px solid;
+            border-color: transparent rgb(43, 37, 37) transparent transparent;
+        }
+       
+       
+        .p22 , .p4{
+            background-color:rgb(157 141 32);
+            border-radius: 50px 0 0 50px;
+            width: 700px;
+            height: 65px;
+            margin: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+
+        .p22 img {
+            position: absolute;
+            border-radius: 50%;
+            width: 60px;
+            top: 177px;
+            height: 60px;
+            left: 62px;
+        }
+
+        .p4 img {
+            position: absolute;
+            border-radius: 50%;
+            width: 60px;
+            top: 417px;
+            height: 60px;
+            left: 62px;
+        }
+
+        .p22 span , .p4 span{
+            position: absolute;
+            width: 70px;
+            height: 55px;
+            left: 685px;
+            background-color: rgb(43, 37, 37);
+            font-size: 60px;
+            font-weight: 900px;
+            color: #FEFEDF;
+            border-radius: 30px 0px 0px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .p22::after ,.p4::after{
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            right: -75px;
+            border: 60px solid;
+            border-color:  transparent transparent transparent rgb(43, 37, 37); /* تصميم المثلث */
+        }
+       

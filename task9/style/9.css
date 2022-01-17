@@ -1,0 +1,111 @@
+
+.style1 {
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../style/image/11.jpg);
+}
+
+.box1 {
+   
+    background-color: rgb(126, 29, 110);
+    position: absolute;
+    left: 50px;
+    width: 350px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: 150px;
+   
+}
+
+.box1::before {
+    content: " ";
+    position: absolute;
+    border: 2px solid transparent;
+    background: transparent;
+    transition: 1s;
+}
+
+.box1:hover::before {
+    left: 50px;
+    transform: skewX(10deg);
+}
+
+.box2 {
+   
+    margin: 20px;
+    border: 2px solid rgb(238, 238, 35);
+    height: 310px;
+    width: 310px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.graph {
+    
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.box1 span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.box1 span:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.box1 span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.box1 span:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.box1 span:nth-child(4) {
+    transform: rotate(270deg);
+}
+
+.box1 span::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(238, 238, 35);
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(0);
+        transform-origin: left;
+    }
+    25% {
+        transform: scale(1);
+        transform-origin: left;
+    }
+    50% {
+        transform: scale(1);
+        transform-origin: right;
+    }
+    75% {
+        transform: scale(1);
+        transform-origin: right;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: right;
+    }
+}
